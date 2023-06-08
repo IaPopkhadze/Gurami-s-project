@@ -68,7 +68,7 @@ const Navigation = () => {
             onClick={() => setOpenCategory(!openCategory)}
           >
             <div className="categ_left">
-              <RxHamburgerMenu /> Categories
+              <RxHamburgerMenu /> კატეგორიები
             </div>
             <IoIosArrowDown />
             <div
@@ -91,16 +91,16 @@ const Navigation = () => {
           </div>
           <div className="navigation_menu">
             <Link to="/" className="nav_item">
-              Home
+            მთავარი
             </Link>
             <Link to="contact" className="nav_item">
-              Contact
+              კონტაქტი
             </Link>
             <Link to="about" className="nav_item">
-              About
+              შესახებ
             </Link>
             <Link to="shop" className="nav_item">
-              Shop
+              მაღაზია
             </Link>
           </div>
         </div>

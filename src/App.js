@@ -9,6 +9,10 @@ import About from "./components/About";
 import Shop from "./components/Shop";
 import ShopCart from "./components/ShopCart";
 import Layout from "./components/Layout";
+import Admin from "./components/Admin";
+
+import "../node_modules/bpg-arial-caps/css/bpg-arial-caps.min.css";
+
 function App() {
   return (
     <BrowserRouter>
@@ -20,6 +24,7 @@ function App() {
           <Route path="/shop" element={<Shop />} />
           <Route path="/shopcart" element={<ShopCart />} />
         </Route>
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </BrowserRouter>
   );
